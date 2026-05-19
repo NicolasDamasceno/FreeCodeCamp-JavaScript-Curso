@@ -40,3 +40,38 @@ console.log(fala);
 
 let fala2 = "Copo d\'gua.";
 console.log(fala2);
+
+let nome = 'Alice';
+saudacoes = `Olá, ${nome}!`;
+console.log(saudacoes);
+
+poema = `No meio do caminho tinha um JS,
+tinha um JS no meio do caminho
+`;
+console.log(poema);
+
+let musica = "Bohemian Rhapsody";
+let score = 9.5;
+let highScore = 10;
+let saida = `Um das minhas músicas favoritas é "${musica}". Dou nota ${ (score/highScore)*100 }%`;
+console.log(saida);
+
+let frase = "JavaScript é incrível!";
+let posicao = frase.indexOf("incrível!");
+console.log(posicao);
+
+posicao = frase.indexOf("fantastico");
+console.log(posicao);
+
+frase = "JavaScript é legal, e JavaScript é poderoso!";
+posicao = frase.indexOf("JavaScript", 10);
+console.log(posicao);
+
+const btn = document.getElementById("prompt-btn");
+const output = document.getElementById("output");
+
+btn.addEventListener('click', ()=>{
+    const usuarioNome = prompt("Qual o seu nome?", "Visitante");
+    output.textContent = `Olá, ${usuarioNome}!`;
+    
+})
