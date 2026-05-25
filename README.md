@@ -15,7 +15,7 @@ Repositório dedicado a centralizar os exercícios, anotações e projetos desen
 O repositório está dividido por módulos para facilitar a navegação:
 
 * `/basico`: Fundamentos como variáveis, loops e condicionais.
-* `/algoritmos`: Soluções para os desafios de lógica de programação.
+* `/workshops`: Criando pequenos sistemas com JS.
 * `/projetos-finais`: Os 5 projetos necessários para obter o certificado.
 
 ## 🛠️ Tecnologias e Ferramentas
